@@ -1,3 +1,12 @@
+## [1.6.2](https://github.com/forcedotcom/afv-library/compare/1.6.1...1.6.2) (2026-03-31)
+
+
+### Bug Fixes
+
+* ensure skill load for guest sharing rule ([#127](https://github.com/forcedotcom/afv-library/issues/127)) ([878ee49](https://github.com/forcedotcom/afv-library/commit/878ee497c4ea5756186db2b4ce0cb9349f1558ac))
+
+
+
 ## [1.6.1](https://github.com/forcedotcom/afv-library/compare/1.6.0...1.6.1) (2026-03-31)
 
 
