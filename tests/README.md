@@ -237,3 +237,13 @@ The discovery script matches files to runners as follows:
 - **Python 3.9+** and `pip install pytest` - only needed if you have Python script-tests
 - No additional tools needed for bash script-tests
 
+## Need a different language?
+
+The discovery script currently supports Python, Bash, Bats, and TypeScript/JavaScript. If your script-tests require a different language or runner, support will need to be added to `scripts/run-skill-tests.sh`.
+
+For questions or help, reach out on **#afv-skills-onboarding-support** in Slack.
+
+## Examples
+
+See the [draft PR #214](https://github.com/forcedotcom/afv-library/pull/214) for working examples of all supported test types.
+
