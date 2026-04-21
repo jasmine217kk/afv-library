@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/forcedotcom/afv-library/compare/1.7.0...1.7.1) (2026-04-21)
+
+
+### Bug Fixes
+
+* @W-21915952@ Update SKILL.md to allow user to make changes in the generated flow ([#189](https://github.com/forcedotcom/afv-library/issues/189)) ([e089a86](https://github.com/forcedotcom/afv-library/commit/e089a8688ae91b152d7699c448bdc5cd81325512))
+
+
+
 # [1.7.0](https://github.com/forcedotcom/afv-library/compare/1.6.9...1.7.0) (2026-04-09)
 
 
