@@ -16,11 +16,16 @@
     "@salesforce/webapp-template-app-react-sample-b2e-experimental": "^1.117.1",
     "@salesforce/webapp-template-app-react-sample-b2x-experimental": "^1.117.1",
     "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.6.0",
     "js-yaml": "^4.1.1",
-    "tsx": "^4.21.0"
+    "tsx": "^4.21.0",
+    "vitest": "^4.1.4"
   },
   "scripts": {
     "validate:skills": "tsx scripts/validate-skills.ts",
+    "test": "npm run validate:skills && npm run test:skills && npm run test:scripts",
+    "test:skills": "vitest run /skill-tests/ --passWithNoTests",
+    "test:scripts": "bash scripts/run-skill-tests.sh",
     "sync-react-b2e-sample": "node scripts/sync-react-b2e-sample.js",
     "sync-react-b2x-sample": "node scripts/sync-react-b2x-sample.js"
   }

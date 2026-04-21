@@ -384,7 +384,7 @@ function main(): void {
     }
     console.log(`Validating ${entries.length} changed skill(s): ${entries.join(", ")}`)
   } else {
-    entries = fs.readdirSync(SKILLS_DIR)
+    entries = fs.readdirSync(SKILLS_DIR).filter((e) => !e.startsWith("."))
   }
 
   const allErrors: string[] = []
