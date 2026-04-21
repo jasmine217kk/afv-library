@@ -235,6 +235,7 @@ The discovery script matches files to runners as follows:
 
 - **Node.js** (v22, see `.nvmrc`) + `npm ci`
 - **Python 3.9+** and `pip install pytest` - only needed if you have Python script-tests
+- **Bats** (`brew install bats-core`) - only needed if you have Bats script-tests
 - No additional tools needed for bash script-tests
 
 ## Need a different language?
