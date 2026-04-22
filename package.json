@@ -16,7 +16,6 @@
     "@salesforce/webapp-template-app-react-sample-b2e-experimental": "^1.117.1",
     "@salesforce/webapp-template-app-react-sample-b2x-experimental": "^1.117.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.0.0",
     "js-yaml": "^4.1.1",
     "tsx": "^4.21.0",
     "vitest": "^4.1.4"
